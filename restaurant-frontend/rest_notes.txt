@@ -1,0 +1,30 @@
+
+
+            Restaurant  Listing App
+            _______________________
+
+1.xreate the project -    npx create-react-app restaurant-listing-app
+2.clean up the code
+3.run project - npm start
+4.install bootstrap - npm install react-bootstrap bootstrap
+5.select theme - go to bootswatch.com 
+    - click on download of theme select bootstrap.min.js
+    - paste downloaded file inside src
+    - import inside >index.js - import './bootstrap.min.css';
+6.font awesome cdn copy and paste into >public>index.html    
+7.create components
+    i.)src>Components
+       >Header  >Header.js
+       >Footer  >Footer.js
+   ii.) import components inside app.js 
+
+8. React Redux implementation
+            install redux - npm i redux react-redux redux-thunk
+
+            1.) Create globally available store 
+                  src/store.js (its not a component) 
+            2.) Make the store available to index.js
+
+            3.) Create Action - src/Actions/allRestAction.js (Its not a Component)
+            4.)Create Constants - src/Constants/allrestConstants.js   --- to just define that the action defined inside allRestaction is fail or success
+            5.)Create Reducers - src/reducers/allrestReducers.js
